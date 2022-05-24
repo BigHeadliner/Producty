@@ -4,7 +4,23 @@
   
  body{ 
     font-family: 'Poppins', sans-serif; 
-    font-weight: 400;
+    font-weight: 500; 
+    color:#544837;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+ }  
+  
+ button{ 
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 700; 
+    font-size: 16px;   
+    line-height: 24px;  
+    cursor:pointer;
+ }
+ 
+ .title{ 
+   color:#2F281E;
  } 
 
  .container{ 
@@ -33,10 +49,11 @@
      margin-left: 24px;
  } 
   
- .menu__list-link{ 
+ .menu__list-link{   
+    color: #2F281E; 
     font-size: 14px;
     line-height: 28px;
-    color: #2F281E; 
+    font-weight: 400px;
     text-decoration: none; 
  } 
   
@@ -61,4 +78,61 @@
      border-color:transparent; 
      background-color: #FF9900; 
      color:#fff;
+ } 
+  
+ .top{ 
+     border:1px solid transparent;
+ }
+  
+ .top__inner{  
+    padding: 133px 0 80px;  
+    background-image:url(../images/top-bg.svg); 
+    background-repeat:no-repeat; 
+    background-position: bottom right;
+}  
+ 
+  
+ .top__title{ 
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px; 
+    margin-bottom:30px; 
+    max-width:518px;
+ }  
+  
+ .top__text{  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px; 
+    max-width: 450px;
+ } 
+  
+ .top__btn{ 
+     display: inline-block; 
+     color:#fff;  
+     background-color:#FF9900; 
+     border-radius:4px; 
+     padding: 15px 41px; 
+     margin-right: 30px; 
+     border:none;
+ } 
+  
+ .top__link{ 
+     line-height: 24px; 
+     display: inline-block; 
+     font-weight: 600; 
+     color:#FF9900; 
+     padding-left: 25px;  
+     position: relative;
+ } 
+  
+ .top__link::before{ 
+     content: "";  
+     position: absolute; 
+     left:0; 
+     width: 17px; 
+     height: 19px; 
+     background-image: url('../images/play.svg');
+
  }
